@@ -1,0 +1,13 @@
+
+Observaciones 
+
+Revisión DFD nivel 0 y DFD nivel 1
+
+Referente a la revisión que se hizo de los DFD nivel 0 y nivel 1 se deduce lo siguiente:
+Los DFD cuentan con los elementos adecuados establecidos en la fases previas a su elaboración, se sigue 
+el proceso que el sistema a desarrollar debe seguir.
+En general y desde mi perspectiva están bien, no creo que haga falta agregar o corregir algun dato o proceso
+que se observa en los diágramas. 
+
+
+

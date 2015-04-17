@@ -1,0 +1,24 @@
+Proceso Login
+	usuario <- "USER"
+	contra <- "password"
+	intentos <- 3
+	usu_def <- "USER"
+	contra_def <- "password"
+	Repetir 
+		intentos <- intentos - 1
+			Escribir "Usuario: "
+			leer usu_def
+			escribir "Contraseña: "
+			leer contra_def
+			si contra_def <> contra y usu_def <> usuario Entonces
+				escribir "Usuario y/o contraseña incorrecta!"
+				escribir "Tienes ",intentos," intentos."
+			FinSi
+			Si usu_def = usuario y contra_def = contra entonces
+			Escribir "Logueado correctamente, bienvenido " ,usuario, "."
+		FinSi
+	Hasta Que usu_def = usuario & contra_def = contra o intentos = 0
+	si intentos = 0 Entonces
+		escribir "Llegaste a tu limite de intentos."
+	FinSi
+FinProceso

@@ -2,8 +2,8 @@ Proceso Login
 	usuario <- "USER"
 	contra <- "password"
 	intentos <- 3
-	usu_def <- "USER"
-	contra_def <- "password"
+	usu_def <- ""
+	contra_def <- ""
 	Repetir 
 		intentos <- intentos - 1
 			Escribir "Usuario: "

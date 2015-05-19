@@ -1,0 +1,29 @@
+.contenedorDatos{
+
+	background-color: #E0E0E0;
+
+	top: 8%;
+	right: 0;
+	left: 0;
+	height: 60px;
+
+}
+.logo{
+	padding-left: 5%;
+	padding-bottom: 1%;
+	width: 200px;
+	height: 80px;
+}
+.usuario{
+	position: absolute;
+	z-index: 30;
+	right: 10%;
+	top: 2.5%;
+	right: 5.5%;
+}
+img{
+	z-index: 1000;
+}
+#datosEmpresa{
+	padding-top: 10%;
+}

@@ -1,0 +1,94 @@
+body{
+    background-color: #BDBDBD;
+    background: #DCDDDF url(http://www.libreriaeltorreon.cl/images/fondo.jpg);
+    font-family: "Arial";
+}
+
+.label {
+	font-size: 20px;
+	color: #151515;
+	font-weight: 500;	
+}
+
+.tituloLogin {
+	font-size: 35px;
+	color: #151515;
+	font-weight: 500;	
+	margin: 5px;
+}
+
+.box {
+	color: #A4A4A4;
+    width:40%;
+    position: absolute;
+    top: 32.5%;
+    left:30%; 
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+	-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+	box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+}
+
+.txBox {
+    color: #000000 !important;
+    font-size: 20px;
+    border: none;
+    padding: 13px;
+    width: 450px;
+    padding-left: 19px;
+    border-bottom: 3px solid #CCC;
+    border-left: 2px solid #CCC;
+    border-right: 2px solid #CCC;
+    border-radius: 3px solid #CCC;
+    margin-bottom: 10px;
+    outline: none;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.margen {
+	margin: 10px;
+}
+
+.registrar {
+    margin: 5px;
+}
+
+.btnIngresar {
+	background-color: #0040FF;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: inherit;
+
+    background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, rgb(112,181,242)),
+		color-stop(0.49, rgb(84,164,238)),
+		color-stop(0.5, rgb(54,144,240)),
+		color-stop(1, rgb(26,97,219))
+	);
+}
+
+ .registrar {
+ 	font-size: 20px;
+	font-weight: 500;	
+	margin: 10px;
+ }
+
+ .boxLogin{
+    background-color:#FFF;
+    padding:10px;    
+}
+
+.imagen_circulo{    
+    width: 40%;
+    height: 275px;
+    border: 4px solid #FFF;
+    margin: 10px;
+}
